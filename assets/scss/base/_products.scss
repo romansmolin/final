@@ -7,7 +7,7 @@
         grid-template-columns: 20% 20% 20% 20% 20%;
         -ms-grid-template-rows: 76px 280px 280px 280px 280px;
         grid-template-rows: 76px 280px 280px 280px 280px;
-        gap: 15px;
+        // gap: 15px;
     }
     
     &__header{
@@ -90,6 +90,7 @@
     &__item{
         display: flex;
         flex-direction: column;
+        margin: 15px;
         &-img{
             margin-bottom: 5px;
             img{
