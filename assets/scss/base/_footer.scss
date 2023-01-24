@@ -50,11 +50,16 @@
     }
 
     &__wrapper{
-        width: 80%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
     }
+
+    &__newsletter{
+        width: 40%;
+    }
     &__navigation{
+        
         ul{
             list-style: none;
         }
