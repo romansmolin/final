@@ -3,10 +3,12 @@
 //HEADER DROPDOWN MENU
 const shopMenu = document.querySelector('.header__dropdown-block')
 const dropdownMenu = document.querySelector('.header__dropdown-menu')
-
 if(dropdownMenu){
-    shopMenu.addEventListener('click', () => {
-        dropdownMenu.classList.toggle('active')
+    shopMenu.addEventListener('mouseover', () => {
+        dropdownMenu.classList.add('active')
+    })
+    shopMenu.addEventListener('mouseout', () =>{
+        dropdownMenu.classList.remove('active')
     })
 }
 
